@@ -18,7 +18,7 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <junit-jupiter.version>5.9.2</junit-jupiter.version>
         <junit-platform-suite-engine.version>1.9.2</junit-platform-suite-engine.version>
-        <selenium.version>4.8.0</selenium.version>
+        <selenium.version>4.8.1</selenium.version>
         <assertj.version>3.24.2</assertj.version>
 
         <maven-checkstyle-plugin.version>3.2.0</maven-checkstyle-plugin.version>
@@ -117,7 +117,7 @@
                 <version>${maven-failsafe-plugin.version}</version>
                 <configuration>
                     <includes>
-                        <include>**/homework3/*.class</include>
+                        <include>**/homework3/*Test.class</include>
                     </includes>
                 </configuration>
                 <executions>
